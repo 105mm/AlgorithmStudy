@@ -15,8 +15,22 @@ for output in result:
     print(output)
 
 
+''' result 없이 간단하게
+i = int(input())
 
-'''def copyy(li,a,b):
+for _ in range(i):
+    repeat, sentence = input().split()
+    repeat = int(repeat)
+
+    output = ''
+    for char in sentence:
+        output += char * repeat
+
+    print(output)'''
+
+
+'''
+def copyy(li,a,b):
    li.append(''.join([k*a for k in b]))
 li=[]
 N=int(input())
