@@ -55,6 +55,32 @@ if y2==y3:
 
 print (x4,y4)
 
+'''
+그냥 다른 꼭지점 하나를 대입한다
+
+p11, p12 = map(int,input().split())
+p21, p22 = map(int,input().split())
+p31, p32 = map(int,input().split())
+p41 = 0
+p42 = 0
+
+if p11 == p21:
+    p41 = p31
+elif p11 == p31:
+    p41 = p21
+elif p21 == p31:
+    p41 = p11
+
+if p12 == p22:
+    p42 = p32
+elif p12 == p32:
+    p42 = p22
+elif p22 == p32:
+    p42 = p12
+
+print(p41, p42)
+'''
+
 
 '''
 리스트를 만들어 입력받고 리스트[i] 의 숫자의 개수를 세고
