@@ -1,19 +1,24 @@
 i = int(input())
 
+result = []
+
 for _ in range (i):
     a, b, c = map(int, input().split())
     
     if a == b == c:
-        print(10000+a*1000)
+        result.append(10000+a*1000)
         
     elif a == b:
-        print(1000+a*100)
+        result.append(1000+a*100)
         
     elif a == c:
-        print(1000+a*100)
+        result.append(1000+a*100)
         
     elif b == c:
-        print(1000+b*100)
+        result.append(1000+b*100)
     
     else:
-        print(100 * max(a,b,c))
+        result.append(100 * max(a,b,c))
+
+
+print (max(result))
