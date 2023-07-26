@@ -25,3 +25,18 @@ print(count_soft)
 print(count_im)
 print(count_ai)
 print(count_free)
+
+
+
+"""
+간단버전
+c = [0,0,0,0]
+for i in range(int(input())):
+    a,b,_ = map(int,input().split())
+    if a==1:c[3]+=1
+    elif b==4:c[2]+=1
+    elif b==3:c[1]+=1
+    else:c[0]+=1
+for i in range(4):print(c[i])
+
+"""
