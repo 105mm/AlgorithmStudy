@@ -8,11 +8,11 @@ for _ in range (time):
     a, b = map(int, input().split())
 
     if a>b:
-        B -= a
+        B -=a
     
     if a<b:
         
-        A -= b
+        A -=b
     
     if a==b:
 
@@ -21,3 +21,19 @@ for _ in range (time):
 
 print (A)
 print (B)
+
+
+"""
+n = int(input())
+x = y = 100
+
+for _ in range(n):
+    a, b = map(int, input().split())
+    if a > b:
+        y -= a
+    elif a < b:
+        x -= b
+        
+print(x, y, sep = "\n")
+
+"""
