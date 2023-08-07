@@ -1,14 +1,26 @@
 a = int(input())
+for _ in range(a):
+    y_score=0
+    g_score=0
+    
+    
+    for _ in range(9):
+        y, g = map(int, input().split())
+        
+        if y>g:
+            y_score += y
+            
+        if y<g:
+            g_score += g
+        
+        else:
+            pass
 
-for _ in range(9):
-    y, g = map(int, input().split())
-
-    if y>g:
+    if y_score > g_score:
         print("Yonsei")
-    if y<g:
+
+    if y_score < g_score:
         print("Korea")
-    if y==g:
-        if y!=0 and g!=0:
-            print("Draw")
-    if y==0 and g==0:
-        pass
+
+    if y_score == g_score:
+        print("Draw")
