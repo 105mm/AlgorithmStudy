@@ -1,1 +1,0 @@
-time = int(input())
