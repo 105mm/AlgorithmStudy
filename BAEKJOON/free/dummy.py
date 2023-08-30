@@ -21,7 +21,7 @@ while total_size_bytes > 0:
         break
 
     # 랜덤한 파일 이름 생성 (170글자 이상 190글자 이하)
-    file_name = ''.join(random.choice(valid_chars) for _ in range(random.randint(170, 190))) + ".txt"
+    file_name = ''.join(random.choice(valid_chars) for _ in range(random.randint(10, 15))) + ".txt"
 
     # 총 용량 조정
     total_size_bytes -= file_size
@@ -37,7 +37,7 @@ for file_name, file_size in files:
 output_path = "C:\\Users\king7.DESKTOP-F3EIMPM\Desktop\dummy12\output.txt"
 with open(output_path, "w") as f:
     for file_name, file_size in files:
-        output_line = f"G:\\{file_name}\t{str(file_size)}\t{'1'}\n"
+        output_line = f"G:\pass\\{file_name}\t{str(file_size)}\t{'1'}\n"
         f.write(output_line)
 
 print(f"Results saved to: {output_path}")
