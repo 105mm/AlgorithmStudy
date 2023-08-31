@@ -6,7 +6,7 @@ import os
 valid_chars = string.ascii_letters + string.digits + r'!@#$%^&()-_+='
 
 # 총 용량 (bytes로 변환)
-total_size_gb = 215
+total_size_gb = 0.1
 total_size_bytes = total_size_gb * 1024 * 1024 * 1024
 
 # 파일 생성
@@ -21,7 +21,7 @@ while total_size_bytes > 0:
         break
 
     # 랜덤한 파일 이름 생성 (170글자 이상 190글자 이하)
-    file_name = ''.join(random.choice(valid_chars) for _ in range(random.randint(10, 15))) + ".txt"
+    file_name = ''.join(random.choice(valid_chars) for _ in range(random.randint(170, 190))) + ".txt"
 
     # 총 용량 조정
     total_size_bytes -= file_size
