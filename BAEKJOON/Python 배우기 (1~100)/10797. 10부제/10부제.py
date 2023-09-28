@@ -13,3 +13,16 @@ for i in list_0:
         bulbub += 1
 
 print(bulbub)
+
+
+"""
+플레티넘 코드..
+
+N = int(input())
+s = input()
+s = s.split(' ')
+s = [int(x) for x in s]
+print(s.count(N))
+
+
+"""
