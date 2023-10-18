@@ -10,3 +10,4 @@ elif N > K:
     print(">")
 else:
     print("==")
+    
