@@ -15,4 +15,4 @@ for i in range(N):
                 black = sum
 
 
-print(black)
+print(black) 
