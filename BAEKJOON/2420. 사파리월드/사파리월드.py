@@ -2,4 +2,4 @@ import sys
 
 N, K = map(int, sys.stdin.readline().strip().split())
 
-print(abs(N-K))
+print(abs(N-K))                                                                                                                                                  
