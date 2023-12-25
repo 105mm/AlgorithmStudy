@@ -35,7 +35,7 @@ order = input()
 
 a, b, c = sorted((a, b, c))
 
-for i in order:
+for i in order: 
     if(i == "A"):
         print(a, end=" ")
     elif(i == "B"):
