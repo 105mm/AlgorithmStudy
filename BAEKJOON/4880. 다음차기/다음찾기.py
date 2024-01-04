@@ -12,3 +12,5 @@ while True:
     elif N2 // N1 == N3 // N2:
 
         print ("GP " + str(N3 * (N2 // N1)))
+
+        
