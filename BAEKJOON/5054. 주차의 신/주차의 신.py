@@ -5,5 +5,5 @@ for _ in range (a):
     store = list(map(int, input().split()))[:b]
 
     print ((max(store)-min(store))*2)
-
-    store = []
+    
+    """store = [] 필요 없음..."""
