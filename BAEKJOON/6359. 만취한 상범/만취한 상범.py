@@ -12,6 +12,5 @@ for _ in range (N):
                 num_list.remove(i*j)
             else:
                 num_list.append(i*j)
-
-print(num_list)
-
+    
+    print(len(num_list))
