@@ -12,4 +12,5 @@ for i in range (1, N1):
 
     result.append((i + 1) * M1[i] - sum(result[:i]))
 
-print(result)
+for i in result:
+    print(i, end=' ')
