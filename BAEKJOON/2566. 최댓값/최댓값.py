@@ -18,6 +18,15 @@ for i, row in enumerate(two_dimensional_array):
             max_col = j
 
 print(max_value)
+
+
+
+
+
+
+
+
+
 print(max_row + 1, max_col + 1)
 
 
@@ -37,6 +46,7 @@ for i in range(9):
 
 print(result)
 print(ii + 1, jj + 1)
+
 
 
 """
