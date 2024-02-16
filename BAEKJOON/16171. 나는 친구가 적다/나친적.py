@@ -10,4 +10,12 @@ for i in range(len(check)):
     if check[i] not in num:
         check_2.append(check[i])
 
-print(check_2)
+check_2 = ''.join(check_2)
+
+keyword = sys.stdin.readline().strip()
+
+if keyword in check_2:
+    print(1)
+
+else:
+    print(0)
