@@ -21,7 +21,7 @@ def solve():
     for i in input_str:
         result += i
     
-    # 결과 출력
+    # 결과 출력tk
     print("리스트의 합:", result)
 
 # 함수 호출
