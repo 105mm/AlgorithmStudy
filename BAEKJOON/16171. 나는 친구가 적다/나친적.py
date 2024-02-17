@@ -19,3 +19,5 @@ if keyword in check_2:
 
 else:
     print(0)
+
+"""1"""
