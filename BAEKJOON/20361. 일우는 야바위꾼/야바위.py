@@ -17,3 +17,18 @@ for _ in range(N3):
     cup[M2-1] = imsi
 
 print(cup.index(N2)+1)
+
+
+"""
+
+N, X, K = map(int, input().split())
+Shell = [0] * (N + 1)
+Shell[X] = 1
+
+for _ in range(K):
+    A, B = map(int, input().split())
+    Shell[A], Shell[B] = Shell[B], Shell[A]
+    
+print(Shell.index(1))
+
+"""
