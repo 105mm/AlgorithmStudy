@@ -7,6 +7,7 @@ while True:
     if user_input == '*':
         break
 
+
     
     for char in user_input:
         if char in alphabet_set:
