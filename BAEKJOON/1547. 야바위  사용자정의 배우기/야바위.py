@@ -17,9 +17,8 @@ for _ in range(a):
 
 print(ball)
 
-
-
 """
+
 def ball(num1, num2):
     a = result.index(num1)
     b = result.index(num2)
