@@ -18,4 +18,4 @@ hello world
 예제 출력 1 
 Y
 Y
-""N""
+"N"
