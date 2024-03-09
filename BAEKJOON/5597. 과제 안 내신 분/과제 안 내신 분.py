@@ -13,6 +13,7 @@ print(missing_numbers[1])
 
 
 """
+
 li = [0 for i in range(1,32)]
 for i in range(28):
     tmp = int(input())
@@ -20,5 +21,6 @@ for i in range(28):
 for i in range(1,31):
     if li[i]==0:
         print(i,end=' ')
+        
 
 """
