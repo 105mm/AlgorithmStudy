@@ -1,4 +1,5 @@
 res = int(input())
+
 while 1:
     op = input()
     if op == '=':
