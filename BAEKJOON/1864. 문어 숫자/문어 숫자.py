@@ -15,6 +15,7 @@ while True:
     for char in user_input:
         num.append(char_to_num[char])
         
+        
     for i in reversed(num):
         result += i*8**x
         x += 1
