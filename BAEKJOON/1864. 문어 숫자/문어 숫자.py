@@ -39,3 +39,4 @@ while True:
     print(sum((n.find(s[i])) * 8**i for i in range(len(s))))
 
 """
+
