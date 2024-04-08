@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> *** 간단 계산기 *** </h1>
+    <script>
+        num1 = parseInt(prompt("숫자1: "));
+        num2 = parseInt(prompt("숫자2: "));
+        document.write(`숫자1: ${num1}<br>`);
+        document.write(`숫자2: ${num2}<br>`);
+        document.write(`덧셈: ${num1} + ${num2} = ${plus()}<br>`)
+        document.write(`뺄셈: ${num1} - ${num2} = ${minus()}<br>`)
+        document.write(`곱셈: ${num1} * ${num2} = ${multiply()}<br>`)
+        document.write(`나눗셈: ${num1} / ${num2} = ${divide()}<br>`)
+        document.write(`나머지: ${num1} % ${num2} = ${modular()}<br>`)
+
+        function plus() {
+            return num1 + num2;
+        }
+        function minus() {
+            return num1 - num2;
+        }
+        function multiply() {
+            return num1 * num2;
+        }
+        function divide() {
+            return parseInt(num1 / num2);
+        }
+        function modular() {
+            return num1 % num2;
+        }
+    </script>
+    
+</body>
+</html>
